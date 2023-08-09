@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rifaspadel/static/css/main.06f5f2ee.css",
+    "main.js": "/rifaspadel/static/js/main.7f588075.js",
+    "static/js/787.3ea3d7d6.chunk.js": "/rifaspadel/static/js/787.3ea3d7d6.chunk.js",
+    "static/media/tennis.png": "/rifaspadel/static/media/tennis.4d08445c7e5fef4457d4.png",
+    "static/media/logo.svg": "/rifaspadel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rifaspadel/index.html",
+    "main.06f5f2ee.css.map": "/rifaspadel/static/css/main.06f5f2ee.css.map",
+    "main.7f588075.js.map": "/rifaspadel/static/js/main.7f588075.js.map",
+    "787.3ea3d7d6.chunk.js.map": "/rifaspadel/static/js/787.3ea3d7d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06f5f2ee.css",
+    "static/js/main.7f588075.js"
+  ]
+}
