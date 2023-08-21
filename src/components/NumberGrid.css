@@ -51,7 +51,7 @@ table.numbers-grid-table td {
     height: 20px;
 }
 
-@media (max-width:771px) {
+@media (max-width:768px) {
     .tennis-ball {
         width: 15px;
         height: 15px;

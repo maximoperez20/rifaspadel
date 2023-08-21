@@ -1,0 +1,24 @@
+.img-carousel {
+    height: 85vh;
+    object-fit: cover;
+}
+
+button.slick-arrow.slick-prev::before,
+button.slick-arrow.slick-next::before {
+    color: lightgray;
+    z-index: 99 !important;
+}
+
+@media screen and (max-width:768px) {
+    .slick-next {
+        right: 0px !important;
+        z-index: 99 !important;
+
+    }
+
+    .slick-prev {
+        left: 0px !important;
+        z-index: 99 !important;
+
+    }
+}

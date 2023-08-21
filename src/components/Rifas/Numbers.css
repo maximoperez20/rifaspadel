@@ -1,0 +1,15 @@
+.numbers-grid-table td:hover:not(.unavailable) {
+    background-color: #FF8551;
+    animation: 0.4s ease-in changeBg;
+    cursor: pointer;
+}
+
+@keyframes changeBg {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: #FF8551;
+    }
+}

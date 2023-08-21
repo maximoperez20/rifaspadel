@@ -1,0 +1,42 @@
+.botonWhatsapp {
+    background-color: #25d366;
+    border-color: #25d366;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 100rem;
+    width: 50px;
+    height: 50px;
+    font-size: 27px !important;
+    line-height: 48px !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1faf54;
+    backdrop-filter: blur(10px);
+    animation: slideUp 0.5s ease-out;
+}
+
+.botonWhatsapp:hover {
+    background-color: #1faf54;
+}
+
+.iconoWhatsapp {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 20px;
+}
+
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }

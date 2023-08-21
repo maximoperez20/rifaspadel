@@ -1,0 +1,16 @@
+.individual-banner {
+    height: auto;
+    width: 100%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    margin: 6rem 0;
+  }
+  .individual-banner__header {
+    /* font-family: "HelveticaNeueLight"; */
+    text-align: center;
+  }
+
+  .individual-banner__content {
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+  }

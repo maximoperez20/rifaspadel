@@ -1,0 +1,87 @@
+.number-generator-title {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.number-generator-parragraph {
+  font-size: 1.8rem;
+}
+
+.generated-numbers-conainer {
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 50%;
+  height: 20rem;
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  .generated-numbers-conainer {
+    width: 90%;
+  }
+
+  .number-generator-parragraph {
+    font-size: 1.6rem;
+  }
+}
+
+.generated-numbers-conainer h3 {
+  margin: 0;
+
+}
+
+.lucky-number {
+  min-height: 6rem;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lucky-number-text {
+  font-size: 4rem !important;
+  animation: growthScale 1.5s alternate infinite ease-in;
+  ;
+}
+
+@keyframes growthScale {
+  0% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.btn-generate-number {
+  font-size: 1.5rem !important;
+  display: inline-flex !important;
+
+}
+
+.btn-book-number {
+  display: inline-flex !important;
+}
+
+.btn-book-number>span {
+  margin-left: 5px !important;
+  font-size: 1.5rem !important;
+  width: 200px;
+}
+
+.btn-try-again {
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* SPINNER */
+
+.spinner-random-number {
+  font-size: 1rem;
+  zoom: 2;
+}

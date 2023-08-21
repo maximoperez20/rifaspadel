@@ -1,0 +1,10 @@
+.winners-history__container {
+    width: 350px;
+}
+
+@media screen and (min-width:991px) {
+    .winners-history__container {
+        margin-left: 10rem;
+
+    }
+}

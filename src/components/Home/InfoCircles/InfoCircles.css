@@ -1,0 +1,24 @@
+.info-circles {
+    width: 80%;
+    margin: 6rem auto;
+}
+
+.info-circles__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 133, 81);
+
+}
+
+.info-circles__item span {
+    font-size: 1.2rem;
+    text-align: center;
+    color: gray;
+}
+
+.info-circles__item:hover span {
+    color: rgb(255, 133, 81);
+    transition: all .4s ease;
+}
